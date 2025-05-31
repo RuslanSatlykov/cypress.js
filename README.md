@@ -17,16 +17,16 @@
 ## Детали реализации
 
 1. baseUrl вынесен в переменные конфига
-![image]()
+![image](https://raw.githubusercontent.com/RuslanSatlykov/cypress.js/refs/heads/main/BaseUrl.jpg)
 
 2. Применение хуков beforeEach и afterEach
-![image]()
+![image](https://raw.githubusercontent.com/RuslanSatlykov/cypress.js/refs/heads/main/BeforeEach_AfterEach.jpg)
 
 3. Переменные данные для авторизации вынесены в отдельный файл
-![image]()
+![image](https://raw.githubusercontent.com/RuslanSatlykov/cypress.js/refs/heads/main/Login_password.jpg)
 
 4. Каждая страница описана в формате объекта с локаторами
-![image]()
+![image](https://raw.githubusercontent.com/RuslanSatlykov/cypress.js/refs/heads/main/Lokators.jpg)
 
 ## Локальный запуск тестов (из терминала)
 1. Скачать проект
@@ -36,7 +36,7 @@
 npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 ```
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image]()
+![image](https://raw.githubusercontent.com/RuslanSatlykov/cypress.js/refs/heads/main/npx.jpg)
 
 
 ## Локальный запуск через Cypress UI
@@ -49,7 +49,7 @@ npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
 7. Выбрать спеку lesson_locators
 
 Ожидаемый результат: получим отчет о прохождении тестов.
-![image]()
+![image](https://raw.githubusercontent.com/RuslanSatlykov/cypress.js/refs/heads/main/ui.jpg)
 
 
 ## Автор
